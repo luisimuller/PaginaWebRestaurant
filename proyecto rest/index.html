@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ristorante Italiano</title>
+    <script src="https://kit.fontawesome.com/24e20c19f5.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -72,21 +73,140 @@
             </div>
         </div>
     </div>
-    <section class="menu comedor">
-        <h2>Platos populares</h2>
+    <section class="menu  contenedor">
+        <h2 class="texto-platos">Platos populares</h2>
         <div class="botones-platos">
-            <button class="todos">Todos</button>
-            <button class="ensaladas">Ensaladas</button>
-            <button class="pastas">Pastas</button>
-            <button class="pizzas">Pizzas</button>
-            <button class="postres">Postres</button>
+            <button class="todos btn btn-verde">Todos</button>
+            <button class="ensaladas btn btn-verde">Ensaladas</button>
+            <button class="pastas btn btn-verde">Pastas</button>
+            <button class="pizzas btn btn-verde">Pizzas</button>
+            <button class="postres btn btn-verde">Postres</button>
         </div>
         <div class="platos">
-            <div class="plato">
-                <img src="assets/ensalada.webp" alt="Ensaladas">
+            <div class="plato" data-plato="ensalada">
+                <img data-src="assets/ensalada.webp" alt="Ensalada">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
             </div>
-        </div>
+            <div class="plato" data-plato="ensalada">
+                <img data-src="assets/ensalada2.webp" alt="Ensalada">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="ensalada">
+                <img data-src="assets/ensalada.webp" alt="Ensalada">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pastas">
+                <img data-src="assets/pasta1.webp" alt="pasta">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pastas">
+                <img data-src="assets/pasta2.webp" alt="Pasta">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pastas">
+                <img data-src="assets/pasta1.webp" alt="Pasta">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pizzas">
+                <img data-src="assets/pizza1.webp" alt="Pizza">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pizzas">
+                <img data-src="assets/pizza2.webp" alt="Pizza">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="pizzas">
+                <img data-src="assets/pizza1.webp" alt="Pizza">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="postres">
+                <img data-src="assets/postres1.webp" alt="Postre">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="postres">
+                <img data-src="assets/postres2.webp" alt="Postre">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
+            <div class="plato" data-plato="postres">
+                <img data-src="assets/postres3.webp" alt="Postre">
+                <h2>Quinoa</h2>
+                <p>Tomate, pepino, berenjena, zanahoria, legumbres, repollo, brotes,
+                    chaucha, zuquini, tostadas y cereales </p>
+                <div class="precio">
+                    <p>$40.0</p>
+                    <button><i class="fa-solid fa-basket-shopping"></i></button>
+                </div>
+            </div>
 
+
+        
+        </div>
     </section>
 
 
