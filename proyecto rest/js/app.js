@@ -1,5 +1,6 @@
 const menu = document.querySelector('.hamburguesa');
 const navegacion=document.querySelector('.navegacion');
+const imagenes=document.querySelectorAll('img');
 
 document.addEventListener('DOMContentLoaded', () => {
     eventos();
@@ -27,6 +28,10 @@ const botonCerrar = ()=>{
     cerrarMenu(btnCerrar,overlay);
 }
 
+imagenes.forEach(imagen=>{
+    imagen.src =imagen.dataset.src;
+});
+
 const cerrarMenu = (boton,overlay)=>{
     boton.addEventListener('click', ()=>{
         navegacion.classList.add('ocultar');
@@ -39,5 +44,5 @@ const cerrarMenu = (boton,overlay)=>{
         navegacion.classList.add('ocultar');
         boton.remove();
     }    
-
 }
+
